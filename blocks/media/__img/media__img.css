@@ -1,0 +1,18 @@
+.media__img {
+  width: 28.5%;
+  margin-right: 15px;
+}
+.media__img:nth-of-type(4) {
+  margin-right: 0;
+}
+@media screen and (max-width: 1200px) {
+  .media__img {
+    width: 27.5%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .media__img {
+    width: 26.5%;
+    margin-right: 10px;
+  }
+}

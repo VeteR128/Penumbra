@@ -1,0 +1,22 @@
+.header__info {
+  margin-left: calc(150% / (1440 / 100));
+  max-width: 560px;
+  width: 100%;
+  margin-bottom: 112px;
+}
+@media screen and (max-width: 780px) {
+  .header__info {
+    margin-left: 0;
+    margin-bottom: 56px;
+
+    max-width: 320px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__info {
+    margin-left: 0;
+    margin-bottom: 56px;
+
+    max-width: 270px;
+  }
+}

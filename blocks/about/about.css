@@ -1,0 +1,9 @@
+.about {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
+    url(../../images/bgabout.png);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0px 4px 80px 71px rgba(0, 0, 0, 0.86);
+}

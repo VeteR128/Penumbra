@@ -1,0 +1,14 @@
+.Features__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12px + 12 * (100vw / 1440));
+  line-height: 155%;
+
+  text-align: justify;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  margin-left: calc(200% / (1440 / 100));
+  margin-top: 0;
+  margin-bottom: 0;
+}

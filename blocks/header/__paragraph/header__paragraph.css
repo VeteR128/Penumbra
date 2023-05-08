@@ -1,0 +1,11 @@
+.header__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12px + 8 * (100vw / 1440));
+  line-height: 155%;
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  margin: 0;
+}

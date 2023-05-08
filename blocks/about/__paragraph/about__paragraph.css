@@ -1,0 +1,21 @@
+.about__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(10px + 14 * (100vw / 1440));
+  line-height: 155%;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 0;
+  margin-right: calc(174% / (1290 / 100));
+  max-width: 483px;
+  width: 100%;
+}
+.about__paragraph:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 780px) {
+  .about__paragraph {
+    margin-right: calc(50% / (780 / 100));
+  }
+}

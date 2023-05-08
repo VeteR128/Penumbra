@@ -1,0 +1,19 @@
+.media__container {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc(75% / (1440 / 100));
+  margin-right: calc(75% / (1440 / 100));
+  justify-content: space-between;
+}
+@media screen and (max-width: 780px) {
+  .media__container {
+    margin-left: calc(10% / (780 / 100));
+    margin-right: calc(10% / (780 / 100));
+  }
+}
+@media screen and (max-width: 680px) {
+  .media__container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

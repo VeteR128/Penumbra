@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Spatran";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(SpartanMB-Regular.woff2) format("woff2"),
+    url(SpartanMB-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Spatran";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(SpartanMB-Bold.woff2) format("woff2"),
+    url(SpartanMB-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "Spatran";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src: url(SpartanMB-ExtraLight.woff2) format("woff2"),
+    url(SpartanMB-ExtraLight.woff) format("woff");
+}
+@font-face {
+  font-family: "Spatran";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(SpartanMB-SemiBold.woff2) format("woff2"),
+    url(SpartanMB-SemiBold.woff) format("woff");
+}

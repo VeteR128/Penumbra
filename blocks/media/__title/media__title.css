@@ -1,0 +1,19 @@
+.media__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(24px + 10 * (100vw / 1440));
+  line-height: 155%;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin-left: calc(150% / (1440 / 100));
+  margin-top: 59px;
+  margin-bottom: 59px;
+}
+@media screen and (max-width: 780px) {
+  .media__title {
+    margin-left: calc(50% / (780 / 100));
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

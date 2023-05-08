@@ -1,0 +1,22 @@
+.footer__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(8px + 10 * (100vw / 1440));
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-left: calc(150% / (1440 / 100));
+  margin-right: calc(150% / (1440 / 100));
+  margin-top: 59px;
+  margin-bottom: 59px;
+}
+@media screen and (max-width: 780px) {
+  .footer__title {
+    margin-left: calc(50% / (780 / 100));
+    margin-right: calc(50% / (780 / 100));
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+  }
+}

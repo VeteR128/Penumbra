@@ -1,0 +1,12 @@
+.header__logo {
+  max-width: 560px;
+  width: 70%;
+  margin-top: calc(133% / (1440 / 100));
+  margin-bottom: 59px;
+  margin-left: calc(150% / (1440 / 100));
+}
+@media screen and (max-width: 780px) {
+  .header__logo {
+    margin-left: 0;
+  }
+}

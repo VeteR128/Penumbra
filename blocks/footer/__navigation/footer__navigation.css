@@ -1,0 +1,13 @@
+.footer__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: calc(450% / (1440 / 100));
+  margin-right: calc(450% / (1440 / 100));
+}
+@media screen and (max-width: 780px) {
+  .footer__navigation {
+    margin-left: calc(200% / (780 / 100));
+    margin-right: calc(200% / (780 / 100));
+  }
+}

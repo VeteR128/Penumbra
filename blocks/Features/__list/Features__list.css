@@ -1,0 +1,9 @@
+.Features__list {
+  margin-left: calc(200% / (1440 / 100));
+}
+@media screen and (max-width: 580px) {
+  .Features__list {
+    padding: 0;
+    margin-left: calc(40% / (580 / 100));
+  }
+}

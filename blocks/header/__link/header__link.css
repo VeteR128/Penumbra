@@ -1,0 +1,20 @@
+.header__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(8px + 10 * (100vw / 1440));
+  text-decoration: none;
+  line-height: 155%;
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  margin-right: calc(36% / (1288 / 100));
+}
+.header__link:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 780px) {
+  .header__link {
+    margin-right: 15px;
+  }
+}
