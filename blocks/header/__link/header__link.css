@@ -6,9 +6,14 @@
   line-height: 155%;
 
   letter-spacing: 0.05em;
+  transition: all 0.5s ease;
 
   color: #ffffff;
   margin-right: calc(36% / (1288 / 100));
+}
+.header__link:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease;
 }
 .header__link:last-child {
   margin-right: 0;

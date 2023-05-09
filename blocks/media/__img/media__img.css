@@ -1,6 +1,11 @@
 .media__img {
   width: 28.5%;
   margin-right: 15px;
+  transition: all 0.5s ease;
+}
+.media__img:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease;
 }
 .media__img:nth-of-type(4) {
   margin-right: 0;

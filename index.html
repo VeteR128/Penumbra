@@ -9,13 +9,13 @@
   </head>
   <body class="body">
     <div class="page">
-      <header class="header">
+      <header class="header" id="Home">
         <nav class="header__navigation">
-          <a class="header__link" href="">Home</a>
-          <a class="header__link" href="">About project</a>
-          <a class="header__link" href="">Media</a>
-          <a class="header__link" href="">Features</a>
-          <a class="header__link" href="">License</a>
+          <a class="header__link" href="#Home">Home</a>
+          <a class="header__link" href="#About">About project</a>
+          <a class="header__link" href="#Media">Media</a>
+          <a class="header__link" href="#Features">Features</a>
+          <a class="header__link" href="#License">License</a>
         </nav>
         <img class="header__logo" src="images/Logo.svg" alt="logo" />
         <div class="header__info">
@@ -31,7 +31,7 @@
         </div>
       </header>
       <main class="main">
-        <section class="about">
+        <section class="about" id="About">
           <h2 class="about__title">About project</h2>
           <h3 class="about__subtitle">
             Dark and creepy shafts of Greenland became his home for more than 30
@@ -55,7 +55,7 @@
             </p>
           </div>
         </section>
-        <section class="media">
+        <section class="media" id="Media">
           <h2 class="media__title">Media</h2>
           <div class="media__container">
             <img
@@ -86,7 +86,7 @@
             ></iframe>
           </div>
         </section>
-        <section class="Features">
+        <section class="Features" id="Features">
           <h2 class="Features__title">Features</h2>
           <div class="Features__container">
             <ul class="Features__list">
@@ -118,13 +118,24 @@
             ><img class="footer__img" src="images/stemtwo.svg" alt=""
           /></a>
         </nav>
-        <h2 class="footer__title">
+        <h2 class="footer__title" id="License">
           © 2023, CounterCurrent Games. All rights to the franchise belong to
           the Swedish company Frictional Games, we do not claim ownership of the
           product and do not plan to use the result of our work for commercial
           purposes.
         </h2>
       </footer>
+      <div class="popup">
+        <div class="popup__container">
+          <img class="popup__img" src="" alt="" />
+          <img
+            class="popup__close"
+            src="images/clear_24px_outlined.svg"
+            alt="close"
+          />
+        </div>
+      </div>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
