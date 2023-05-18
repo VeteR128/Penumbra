@@ -1,8 +1,23 @@
 .media__container-video {
-  margin-left: calc(125% / (1440 / 100));
-  margin-right: calc(125% / (1440 / 100));
+  margin-left: calc(130% / (1440 / 100));
+  margin-right: calc(130% / (1440 / 100));
 }
-@media screen and (max-width: 780px) {
+
+@media screen and (max-width: 680px) {
   .media__container-video {
+    margin-left: calc(55% / (680 / 100));
+    margin-right: calc(55% / (680 / 100));
+  }
+}
+@media screen and (max-width: 440px) {
+  .media__container-video {
+    margin-left: calc(35% / (440 / 100));
+    margin-right: calc(35% / (440 / 100));
+  }
+}
+@media screen and (max-width: 340px) {
+  .media__container-video {
+    margin-left: calc(25% / (340 / 100));
+    margin-right: calc(25% / (340 / 100));
   }
 }

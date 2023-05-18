@@ -1,6 +1,6 @@
 .header {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
-    url(../../images/background.png);
+    url(../../images/background.jpg);
   background-position: center center;
   background-size: cover;
   display: flex;

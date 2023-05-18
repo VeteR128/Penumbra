@@ -12,12 +12,10 @@
 }
 @media screen and (max-width: 1200px) {
   .media__img {
-    width: 27.5%;
   }
 }
 @media screen and (max-width: 1000px) {
   .media__img {
-    width: 26.5%;
     margin-right: 10px;
   }
 }
