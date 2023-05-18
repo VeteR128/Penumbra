@@ -1,17 +1,8 @@
 .media__container-video {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 54%;
-  margin-top: 59px;
-  margin-left: calc(150% / (1440 / 100));
-  margin-right: calc(150% / (1440 / 100));
+  margin-left: calc(125% / (1440 / 100));
+  margin-right: calc(125% / (1440 / 100));
 }
 @media screen and (max-width: 780px) {
   .media__container-video {
-    margin-top: 30px;
-
-    margin-left: calc(50% / (780 / 100));
-    margin-right: calc(50% / (780 / 100));
   }
 }
